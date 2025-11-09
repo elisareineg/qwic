@@ -7,7 +7,7 @@ export default function ContactForm() {
       action="https://getform.io/f/ayvkwpkb"
       method="POST"
     >
-      <div className="flex gap-4">
+      <div className="flex flex-col gap-4 sm:flex-row">
         <div className="flex flex-col gap-2 basis-1/2">
           <label htmlFor="name">Name</label>
           <input
@@ -30,7 +30,7 @@ export default function ContactForm() {
         </div>
       </div>
       <div className="flex flex-col gap-2 mt-4">
-        <label htmlFor="message">Email</label>
+        <label htmlFor="message">Message</label>
         <textarea
           name="message"
           placeholder="Enter your message"

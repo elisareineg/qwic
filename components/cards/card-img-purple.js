@@ -9,7 +9,7 @@ const CardImgPurple = ({ img }) => (
         alt="Card Image"
         width={300}
         height={300}
-        className="object-cover w-full h-full"
+        className="max-w-full h-auto"
       />
     </div>
     <div className="absolute top-5 left-0 z-30 w-[300px] h-[300px] rounded-2xl bg-dark-purple"></div>
