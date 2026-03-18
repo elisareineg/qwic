@@ -61,10 +61,6 @@ const page = () => {
               <p className="text-secondary-text text-[18px] font-black mt-4">
                 We are so excited to have you participate in HackHer!
               </p>
-              <ButtonPurple
-                username="Sign Up Now"
-                link="https://docs.google.com/forms/d/e/1FAIpQLSe-U06-KuxAq6Ow3J1sAb5UX4YD5PW1To-qPlKSIrHBRbSUvA/viewform"
-              />
             </div>
           </section>
           </Link>
